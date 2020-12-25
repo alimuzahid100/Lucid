@@ -1,0 +1,655 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+/******************************************
+**		header-section css code start 	 **
+*******************************************/
+.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	padding: 20px 0px;
+}
+
+.header-section .main-menu{
+	width: 100%;
+	
+}
+.main-menu .bg-light{
+	width: 100%;
+	background-color: transparent !important;	
+}
+
+.main-menu .bg-light a img{
+	margin-right: 10px;	
+}
+
+.main-menu .bg-light .collapse .navbar-nav .nav-item .active{
+	background: url("../images/mhov.png") center bottom no-repeat;
+}
+
+.main-menu .bg-light .collapse .navbar-nav .nav-item .nav-link:hover, .main-menu .bg-light .collapse .navbar-nav .nav-item .nav-link:focus{
+	background: url("../images/mhov.png") center bottom no-repeat;
+}
+
+.main-menu .bg-light .collapse .navbar-nav .nav-item .nav-link{
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	margin-left: 5px;
+	font-weight: 600;
+}
+/******************************************
+**		banner-section css code start 	 **
+*******************************************/
+.banner-section{
+	width: 100%;
+	padding: 90px 0px;
+}
+
+.banner-section .banner-inner{
+	width: 100%;
+}
+.banner-section .banner-inner .title{
+	width: 100%;
+}
+
+.banner-section .banner-inner .title a{
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.banner-section .banner-inner .title h1{
+	font-size: 43px;
+	line-height: 49px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.banner-section .banner-inner .title p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #7f7f7f;
+	margin-bottom: 50px;
+} 
+
+
+.banner-section .banner-inner .btn-primary{
+	padding: 10px 18px;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-right: 8px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.banner-section .banner-inner .btn-primary:hover, .banner-section .banner-inner .btn-primary:active, .banner-section .banner-inner .btn-primary:focus{
+	background-color: transparent;
+	border: 1px solid #4b494d;
+}
+
+.banner-section .banner-inner .btn-outline-primary{
+	padding: 10px 18px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border: 1px solid #4b494d;
+}
+
+.banner-section .banner-inner .btn-outline-primary:hover, .banner-section .banner-inner .btn-outline-primary:active, .banner-section .banner-inner .btn-outline-primary:foucs{
+	background-color: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+/******************************************
+**		features css code start 	 	 **
+*******************************************/
+
+.features{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+	border-bottom: 1px solid #ededed;
+}
+
+.features{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.features .title{
+	width: 100%;
+}
+
+.features .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #008ed6;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.features .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600;
+	line-height: 46px;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.features .inner-feature{
+	width: 100%;
+	text-align: center;
+	padding: 60px 0px 0px;
+}
+
+.features .inner-feature img{
+	margin-bottom: 30px;
+}
+
+.features .inner-feature h4{
+	font-size: 22px;
+	margin-bottom: 14px;
+	color: #000;
+}
+
+.features .inner-feature p{
+	font-size: 15px;
+	line-height: 25px;
+	color: #7f7f7f;
+}
+/******************************************
+**		about-long css code start 	 	 **
+*******************************************/
+.about-long{
+	width: 100%;
+	padding: 60px 0px 30px;
+}
+
+.about-long .title{
+	width: 100%;
+	margin-top: 40px;
+}
+
+.about-long .title .simplep{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #008ed6;
+	margin-bottom: 10px;
+}
+
+.about-long .title h2{
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 42px;
+	color: #000;
+	margin-bottom: 20px;
+}
+.about-long .title img{
+	margin-bottom: 20px;
+}
+
+.about-long .title .aboutp{
+	font-size: 15px;
+	line-height: 25px;
+	color: #7f7f7f;
+	margin-bottom: 30px;
+}
+
+.about-long .title ul{
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.about-long .title ul li{
+	list-style: none;
+	margin-bottom: 15px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.about-long .title ul li img{
+	margin-bottom: 0px;
+}
+/******************************************
+**		about-short css code start 	 	 **
+*******************************************/
+.about-short{
+	width: 100%;
+	background-color: #f2f2f2;
+	padding: 30px 0px 20px;
+}
+
+.about-short .title{
+	width: 100%;
+	margin-top: 80px;
+}
+
+.about-short .title .simplep{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #008ed6;
+	margin-bottom: 10px;
+}
+
+.about-short .title h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 20px;
+}
+.about-short .title img{
+	margin-bottom: 20px;
+}
+
+.about-short .title .aboutp{
+	font-size: 14px;
+	line-height: 24px;
+	color: #7f7f7f;
+	letter-spacing: 1px;
+}
+/******************************************
+**		testimonial css code start 	 	 **
+*******************************************/
+.testimonial{
+	width: 100%;
+	background: url("../images/banner2.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px 60px;
+}
+
+.testimonial .title{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.testimonial .title .simplep{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #008ed6;
+	margin-bottom: 10px;
+}
+
+.testimonial .title h2{
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 46px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.testimonial .owl-carousel{
+	width: 100%;
+}
+
+.testimonial .owl-carousel h4{
+	font-size: 19px;
+	line-height: 29px;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	font-style: italic;
+}
+
+.testimonial .owl-carousel .card{
+	background-color: transparent;
+	border:none;
+}
+
+
+.testimonial .owl-carousel .owl-stage-outer {
+    margin-bottom: 120px;
+}
+
+.testimonial .owl-carousel .card-title {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.testimonial .owl-carousel .card-text:last-child{
+	font-size: 14px;
+	line-height: 24px;
+    color: #fff;
+}
+/******************************************
+**		eye-catcher css code start 	 	 **
+*******************************************/
+.eye-catcher{
+	width: 100%;
+	padding: 60px 0px;
+	background-color: #15141a;
+}
+
+.eye-catcher .title{
+	width: 100%;
+	display: inline-block;
+}
+
+.eye-catcher .title h2{
+	font-size: 36px;
+	font-weight: 300;
+	color: #fff;
+	
+}
+
+.eye-catcher .title h2 span{
+	font-weight: 600;
+	
+}
+
+.eye-catcher .button-part{
+	width: 100%;
+}
+.eye-catcher .button-part .btn-primary{
+	padding: 10px 18px;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-left: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.eye-catcher .button-part .btn-primary:hover, .eye-catcher .button-part .btn-primary:active, .eye-catcher .button-part .btn-primary:focus{
+	background-color: transparent;
+	border: 1px solid #4b494d;
+}
+
+.eye-catcher .button-part .btn-outline-primary{
+	padding: 10px 18px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border: 1px solid #4b494d;
+}
+
+.eye-catcher .button-part .btn-outline-primary:hover, .eye-catcher .button-part .btn-outline-primary:active, .eye-catcher .button-part .btn-outline-primary:foucs{
+	background-color: #008ed6;
+	border: 1px solid #008ed6;
+}
+/******************************************
+**		pricing css code start 	 		 **
+*******************************************/
+.pricing{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.pricing .title{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.pricing .title p{
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #008ed6;
+	margin-bottom: 10px;
+	line-height: 24px;
+}
+
+.pricing .title h2{
+	font-size: 34px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 30px;
+
+}
+
+.pricing .pricing-inner{
+	border: 1px solid #e0e0e0;
+	padding-bottom: 35px;
+	border-radius: 2px;
+}
+
+.pricing .pricing-inner .price-head{
+	width: 100%;
+	padding: 15px 0px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.pricing .pricing-inner .price-head h4{
+	font-size: 26px;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.pricing .pricing-inner .price{
+	width: 100%;
+	padding: 30px 0px 40px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.pricing .pricing-inner .price h2{
+	font-size: 65px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.pricing .pricing-inner .price h2 sup {
+    top: -21px;
+    font-size: 30px;
+}
+
+.pricing .pricing-inner .price p{
+    font-size: 16px;
+	color: #b4b4b4;
+	margin-bottom: 0px;
+}
+.pricing .pricing-inner .price-body{
+	width: 100%;
+	padding: 40px 0px 15px;
+}
+
+.pricing .pricing-inner .price-body p{
+	font-size: 17px;
+	line-height: 27px;
+	color: #b4b4b4;
+}
+
+.pricing .pricing-inner .btn-outline-primary {
+	padding: 10px 32px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #008ed6;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border: 1px solid #e0e0e0;
+}
+
+.pricing .pricing-inner:hover .btn-outline-primary, .pricing .pricing-inner:active .btn-outline-primary, .pricing .pricing-inner:focus .btn-outline-primary{
+	color: #fff;
+	background-color: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+.pricing .pricing-inner:hover .price, .pricing .pricing-inner:active .price, .pricing .pricing-inner:focus .price{
+	color: #fff;
+	background-color: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+.pricing .pricing-inner:hover .price h2, .pricing .pricing-inner:hover .price p{
+	color: #fff;
+}
+/******************************************
+**		contact-us css code start 	 	 **
+*******************************************/
+.contact-us{
+	width: 100%;
+	padding: 50px 0px;
+	background-color: #ededed;
+}
+
+.contact-us .title{
+	width: 100%;
+}
+.contact-us .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #008ed6;
+	margin-bottom: 10px;
+}
+
+.contact-us .title h2{
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 46px;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.contact-us .inner-feature{
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px 0px;
+}
+
+.contact-us .inner-feature img{
+	margin-bottom: 30px;
+}
+
+.contact-us .inner-feature p{
+	font-size: 15px;
+	line-height: 25px;
+	color: #7f7f7f;
+}
+/******************************************
+**		main-form css code start 	 	 **
+*******************************************/
+.main-form{
+	width: 100%;
+	margin: 0px 0px -45px;
+	background-color: #ededed;
+}
+
+.main-form form{
+	width: 68%;
+	background-color: #15141a;
+	padding: 60px 80px 40px 65px;
+	margin: 0px auto;
+	position: relative;
+	z-index: 1;
+}
+.main-form form .form-control{
+    padding: .9rem .9rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444348;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #444348;
+    margin-bottom: 21.7px;
+    background-color: transparent;
+}
+.main-form form .form-control:focus {
+    border-color: #444348;
+    box-shadow: 0 0 0 0.15rem #444348;
+}
+
+.main-form form .sub-btn{
+	width: 100%;
+	text-align: right;
+}
+.main-form form .btn-primary{
+	padding: 13px 27px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+
+}
+
+.main-form form .btn-primary:hover, .main-form form .btn-primary:active, .main-form form .btn-primary:focus{
+	background-color: transparent;
+	border: 1px solid #4b494d;
+}
+/******************************************
+**		footer-section css code start 	 **
+*******************************************/
+.footer-section{
+	width: 100%;
+	padding: 60px 0px 20px;
+	background-color: #15141a;
+	text-align: center;
+	margin-bottom: -10px;
+}
+
+.footer-section ul{
+	padding: 0;
+	margin:0;
+	display: block;
+}
+
+.footer-section ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.footer-section ul li a{
+	margin-right: 15px;
+	color: #444348;
+	font-weight: 600;
+}
+
+.footer-section ul li a:hover{
+	color: #008ed6;
+}
+.footer-section ul li a i{
+	margin-right: 14px;
+	font-size: 22px;
+}
+
+.footer-section p{
+	font-size: 15px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #444348;
+	font-weight: 600;
+	margin-top: 15px;
+}
